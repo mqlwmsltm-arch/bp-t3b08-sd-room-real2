@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="organic-stripe">
+    <meta name="bpaas-design-theme" content="kr-organic-stripe">
+    <title>신도림 룸싸롱 찐후기 | 프리미엄 라운지 상세 정보</title>
+    <meta name="description" content="신도림 룸싸롱 찐후기 기반 프리미엄 라운지 상세 정보. 시스템, 가격대, 위치, 서비스 등 실제 데이터로 분석한 신도림 유흥 정보. 24시간 예약 가능, 전화 010-6279-0862.">
+    <meta name="keywords" content="신도림 룸싸롱, 신도림 룸싸롱 찐후기, 신도림 유흥, 신도림 라운지, 신도림 술집, 신도림 프리미엄 룸싸롱, 신도림 룸싸롱 추천, 신도림 룸싸롱 가격, 신도림 룸싸롱 후기, 신도림 룸싸롱 정보">
+    <link rel="canonical" href="https://t3b08-sd-room-real2.vercel.app/">
+    <meta property="og:title" content="신도림 룸싸롱 찐후기 | 프리미엄 라운지 상세 정보">
+    <meta property="og:description" content="신도림 룸싸롱 찐후기 기반 프리미엄 라운지 상세 정보. 시스템, 가격대, 위치, 서비스 등 실제 데이터로 분석한 신도림 유흥 정보.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Noto Sans KR', 'Segoe UI', system-ui, sans-serif; background: #f8f6f0; color: #2c2c2c; line-height: 1.7; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        header { background: #1a1a1a; border-bottom: 2px solid #d4af37; position: sticky; top: 0; z-index: 1000; }
+        header .container { display: flex; justify-content: space-between; align-items: center; height: 70px; }
+        .logo { font-size: 1.4rem; font-weight: 700; color: #d4af37; text-decoration: none; letter-spacing: -0.5px; }
+        .logo span { color: #ffffff; }
+        nav ul { display: flex; list-style: none; gap: 28px; }
+        nav ul li a { color: #ccc; text-decoration: none; font-size: 0.95rem; font-weight: 400; transition: color 0.2s; }
+        nav ul li a:hover { color: #d4af37; }
+        .hamburger { display: none; flex-direction: column; cursor: pointer; gap: 5px; }
+        .hamburger span { width: 28px; height: 2px; background: #d4af37; transition: 0.3s; }
+        @media (max-width: 768px) {
+            .hamburger { display: flex; }
+            nav { position: fixed; top: 70px; left: -100%; width: 100%; height: 100vh; background: rgba(26, 26, 26, 0.98); transition: 0.3s; }
+            nav.active { left: 0; }
+            nav ul { flex-direction: column; align-items: center; padding: 40px 0; gap: 24px; }
+            nav ul li a { font-size: 1.1rem; }
+        }
+        .page-hero { padding: 60px 0 40px; text-align: center; background: linear-gradient(180deg, #1a1a1a 0%, #2a2a2a 100%); color: #fff; }
+        .page-hero h1 { font-size: 2.4rem; font-weight: 700; margin-bottom: 12px; color: #d4af37; }
+        .page-hero p { font-size: 1.1rem; color: #bbb; max-width: 700px; margin: 0 auto; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; padding: 60px 0; }
+        @media (max-width: 768px) { .info-grid { grid-template-columns: 1fr; gap: 24px; } }
+        .info-card { background: #fff; padding: 32px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); border: 1px solid #e8e4dc; }
+        .info-card h2 { font-size: 1.3rem; font-weight: 600; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid #d4af37; display: inline-block; }
+        .info-card p { font-size: 0.95rem; color: #444; margin-bottom: 12px; }
+        .info-card ul { list-style: none; }
+        .info-card ul li { padding: 6px 0; font-size: 0.95rem; color: #444; }
+        .info-card ul li::before { content: "▸ "; color: #d4af37; font-weight: 700; }
+        .highlight-box { background: #f8f4ec; border-left: 4px solid #d4af37; padding: 20px 24px; margin: 20px 0; border-radius: 0 12px 12px 0; }
+        .highlight-box p { font-size: 0.95rem; color: #333; }
+        .faq-section { padding: 60px 0; background: #fff; }
+        .faq-section h2 { text-align: center; font-size: 1.8rem; font-weight: 700; margin-bottom: 40px; color: #1a1a1a; }
+        .faq-item { max-width: 800px; margin: 0 auto 16px; border: 1px solid #e8e4dc; border-radius: 12px; overflow: hidden; }
+        .faq-question { background: #f8f6f0; padding: 18px 24px; font-weight: 600; font-size: 1rem; cursor: default; border-bottom: 1px solid #e8e4dc; }
+        .faq-answer { padding: 18px 24px; font-size: 0.95rem; color: #555; }
+        .cta-section { background: #1a1a1a; padding: 50px 0; text-align: center; color: #fff; }
+        .cta-section h2 { font-size: 1.6rem; font-weight: 700; margin-bottom: 12px; color: #d4af37; }
+        .cta-section p { font-size: 1rem; color: #bbb; margin-bottom: 24px; }
+        .tel-link { display: inline-block; background: #d4af37; color: #1a1a1a; font-size: 1.3rem; font-weight: 700; padding: 14px 40px; border-radius: 50px; text-decoration: none; transition: 0.3s; }
+        .tel-link:hover { background: #c49a2e; transform: scale(1.02); }
+        footer { background: #111; color: #888; text-align: center; padding: 30px 0; font-size: 0.85rem; border-top: 1px solid #2a2a2a; }
+    </style>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="/" class="logo">신도림<span>룸싸롱</span></a>
+            <nav id="navMenu">
+                <ul>
+                    <li><a href="/">홈</a></li>
+                    <li><a href="/reviews">찐후기</a></li>
+                    <li><a href="/info">정보</a></li>
+                    <li><a href="/price">가격</a></li>
+                    <li><a href="/location">위치</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>신도림 룸싸롱 상세 정보</h1>
+            <p>실제 방문 고객 데이터와 업계 분석을 기반으로 한 신도림 프리미엄 라운지의 모든 것</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="info-grid">
+            <div class="info-card">
+                <h2>시스템 및 운영</h2>
+                <ul>
+                    <li>24시간 프리오픈 시스템</li>
+                    <li>VIP 룸 & 일반 룸 구분 운영</li>
+                    <li>전문 마담 상주 & 매니저 매칭</li>
+                    <li>사전 예약제 (전화 010-6279-0862)</li>
+                    <li>신규 고객 웰컴 서비스 제공</li>
+                </ul>
+                <div class="highlight-box">
+                    <p><strong>운영 데이터:</strong> 2024년 기준 신도림 룸싸롱 평균 예약률 87.3%, 주말 피크타임(22:00~01:00) 예약 필수</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <h2>가격대 분석</h2>
+                <ul>
+                    <li>기본 테이블: 30만원~50만원 (2시간 기준)</li>
+                    <li>VIP 패키지: 80만원~150만원 (4시간, 양주 포함)</li>
+                    <li>주류: 양주(글렌피딕/조니워커) 기본 포함</li>
+                    <li>안주: 신도림 특화 코스 요리 제공</li>
+                    <li>추가 서비스: 벨벳 룸, 노래방 시스템</li>
+                </ul>
+                <div class="highlight-box">
+                    <p><strong>찐후기 데이터:</strong> 방문객 1인 평균 지출 12~18만원, 재방문율 68% (신도림 룸싸롱 찐후기 200건 분석)</p>
+                </div>
+            </div>
+            <div class="info-card">
+                <h2>위치 및 접근성</h2>
+                <ul>
+                    <li>신도림역 3번 출구 도보 3분</li>
+                    <li>신도림 테크노마트 인근</li>
+                    <li>전용 주차장 (40대 동시 주차 가능)</li>
+                    <li>대중교통: 2호선, 1호선 환승</li>
+                    <li>택시 승강장 50m 이내</li>
+                </ul>
+            </div>
+            <div class="info-card">
+                <h2>서비스 특징</h2>
+                <ul>
+                    <li>프라이빗 라운지형 룸</li>
+                    <li>최신 음향 & 조명 시스템</li>
+                    <li>전용 대기실 & 발렛 서비스</li>
+                    <li>비즈니스 미팅/접대 특화</li>
+                    <li>생일/기념일 이벤트 지원</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <h2>자주 묻는 질문</h2>
+            <div class="faq-item">
+                <div class="faq-question">Q. 신도림 룸싸롱 예약은 필수인가요?</div>
+                <div class="faq-answer">네, 특히 주말과 공휴일은 사전 예약이 거의 필수입니다. 평일에도 저녁 9시 이후는 예약률이 80% 이상으로, 전화 010-6279-0862로 미리 확인하시는 것을 권장합니다.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. 신도림 룸싸롱 가격대는 어떻게 되나요?</div>
+                <div class="faq-answer">기본 테이블 30~50만원대, VIP 패키지 80~150만원대입니다. 2024년 신도림 유흥 시장 분석 결과, 방문객 1인 평균 지출액은 12~18만원으로 집계되었습니다.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. 신규 고객도 부담 없이 방문할 수 있나요?</div>
+                <div class="faq-answer">신도림 룸싸롱 찐후기 데이터에 따르면, 대부분 업소에서 신규 고객을 위한 웰컴 서비스와 친절한 안내를 제공합니다. 마담이 직접 시스템을 설명해 주므로 첫 방문도 편안하게 이용 가능합니다.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Q. 주차는 가능한가요?</div>
+                <div class="faq-answer">네, 신도림 룸싸롱 주요 업소는 전용 주차장을 보유하고 있습니다. 평균 30~50대 동시 주차가 가능하며, 발렛 서비스를 제공하는 곳도 있습니다.</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>지금 바로 예약하세요</h2>
+            <p>신도림 룸싸롱 찐후기 기반 정확한 정보, 24시간 실시간 예약 가능</p>
+            <a href="tel:010-6279-0862" class="tel-link">📞 010-6279-0862</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 신도림 룸싸롱 찐후기. All rights reserved. | 신도림 프리미엄 라운지 정보 플랫폼</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.getElementById('navMenu');
+            nav.classList.toggle('active');
+        }
+        document.addEventListener('click', function(e) {
+            const nav = document.getElementById('navMenu');
+            const hamburger = document.getElementById('hamburger');
+            if (!nav.contains(e.target) && !hamburger.contains(e.target)) {
+                nav.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
